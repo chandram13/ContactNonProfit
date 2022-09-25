@@ -2,11 +2,13 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.8.8; 
 
-contract SimpleStorage {
-    string public contactNumber = "1-866-278-5833";
-    string public fundraisingNumber = "1-800-457-2494"
-    
+contract nonProfits_SimpleStorage {
+  
     function store(uint256 SaintJude) public {
-        contactNumber = SaintJude;
+    string public StJudecontactNumber = "1-866-278-5833";
+    string public StJudefundraisingNumber = "1-800-457-2494";
+    
+    
     }
+    
 }
